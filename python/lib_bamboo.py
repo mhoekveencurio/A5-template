@@ -27,7 +27,7 @@ de resultaten vanuit pandas netjes kunt printen.
 import math
 from datetime import datetime
 
-def pretty(dataframe, type="", columns=None):
+def prettify(dataframe, type="", columns=None):
     
     index = True
     if type == "zwartboek" or type == "eregalerij":

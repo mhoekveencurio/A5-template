@@ -3,7 +3,7 @@ from datetime import datetime
 import lib_bamboo as bamboo
 import os
 
-os.system("cls")
+................... #Deze regel nog invullen! Hoe maak je het scherm leeg?
 print("Working...")
 
 data = pd.read_excel("python/Voorbeeld_Divisie.xlsx")
@@ -19,10 +19,10 @@ data = data.sort_values("datum")
 
 
 #Informatievraag 3
-zwartBoek = .............................................
+zwartBoek = ....... #Deze regel nog invullen! Hoe maak je een top 5?
 file3 = open("files/zwartboek.txt", "w", encoding="UTF-8")
-file3.write(bamboo.pretty(zwartBoek, type="zwartboek"))
-file3.close()
+file3.write(bamboo.prettify(zwartBoek, type="zwartboek"))
+................... #Deze regel nog invullen! Hoe sluit je file3?
 
 
 #Informatievraag 4
